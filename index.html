@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Ember Room</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script defer src="main.js"></script></head>
+<body>
+
+  <header id="navbar">
+    <div class="nav-logo">
+      <span class="logo-symbol">✦</span>
+      <span class="logo-text">The Ember Room</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#section1" class="nav-link">Home</a>
+      <a href="#section2" class="nav-link">Menu</a>
+      <a href="#section3" class="nav-link">About</a>
+      <a href="#section3" class="nav-cta">Reserve a Table</a>
+    </nav>
+    <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#section1" class="mobile-link">Home</a>
+    <a href="#section2" class="mobile-link">Menu</a>
+    <a href="#section3" class="mobile-link">About</a>
+    <a href="#section3" class="mobile-link mobile-link--cta">Reserve a Table</a>
+  </div>
+
+  <section id="section1" class="section section--hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Est. 2019 · Fine Dining</p>
+      <h1 class="hero-title">Where Flame <br><em>Meets Flavor</em></h1>
+      <p class="hero-sub">A curated dining experience for those who demand more.</p>
+      <a href="#section2" class="hero-btn">Explore the Menu</a>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <section id="section2" class="section section--story">
+    <div class="story-inner">
+      <div class="story-tag">Our Philosophy</div>
+      <h2 class="story-title">Crafted for the <em>Uncompromising</em></h2>
+      <div id="content" class="story-text"></div>
+      <div class="story-stats">
+        <div class="stat">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Prime Cut Beef</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">48h</span>
+          <span class="stat-label">Dry-Aged Minimum</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">12+</span>
+          <span class="stat-label">Signature Cuts</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="section3" class="section section--about">
+    <div class="about-inner">
+      <div class="about-label">Reserve Your Experience</div>
+      <h2 class="about-title">Every Table, <em>a Story</em></h2>
+      <p class="about-text">Join us for an evening where every detail — from the first ember to the last bite — is crafted with intention.</p>
+      <a href="mailto:reservations@emberroom.com" class="about-btn">Book Now</a>
+    </div>
+  </section>
+</body>
+</html>
